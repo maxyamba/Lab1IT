@@ -5,13 +5,13 @@
 using namespace std;
 int main()
 {
-    int n, i, j, kvo = 0, max = 0;
+    int n, f, j, kvo = 0, max = 0;
     cout << "Input number " << endl;
     cin >> n;
-    for (i = n; i != 0; kvo++)
+    for (f = n; f != 0; kvo++)
     {
-        j = i % 10;
-        i = i / 10;
+        j = f % 10;
+        f = f / 10;
         if (max < j)
             max = j;
     }
